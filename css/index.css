@@ -1,0 +1,132 @@
+.section-2 {
+    width: 100%;
+    height: calc(100vh - 17em);
+    display: flex;
+    flex-direction: row;
+}
+
+.s2-contenido {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.s2-titulo {
+    height: 40%;
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.s2-titulo p {
+    font-size: 1.225em;
+    margin-top: 0.5em;
+    text-align: left;
+}
+
+.s2-texto {
+    height: 60%;
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.s2-texto p {
+    padding-bottom: 1.5em;
+    font-size: 1.225em;
+}
+
+.s2-texto a {
+    font-size: 1.225em;
+    text-decoration: none;
+    color: #000;
+    background-color: #4eaef4;
+    border-radius: 0.25em;
+    border: #000 solid 0.1em;
+    padding: 1em;
+}
+
+/* Slider */
+
+.s2-slider {
+    width: 60%;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.slider-box {
+    width: 100%;
+    height: auto;
+    margin: 1.5em;
+    overflow: hidden;
+    border-radius: 1.5em;
+}
+
+.slider-box ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    width: 400%;
+    animation: slide 15s alternate infinite ease-in-out;
+}
+
+.slider-box li {
+    width: 100%;
+    position: relative;
+    list-style: none;
+}
+
+.slider-texto {
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    padding: 17.5em 1.5em 0em 1.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    position: absolute;
+    text-align: center;
+    color: #fff;
+}
+
+.texto-2 {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #fff;
+}
+
+.slider-texto a {
+    text-decoration: none;
+    color: #fff;
+    border: #fff solid 0.030em;
+    background-color: rgba(0, 0, 0, 0.55);
+    padding: 1em;
+margin-top: 1em;
+}
+
+.slider-box img {
+    width: 100%;
+}
+
+@keyframes slide {
+    0% {margin-left: 0%;}
+    20% {margin-left: 0%;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;} 
+}
