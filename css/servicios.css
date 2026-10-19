@@ -2,3 +2,9 @@
     width: 100%;
     height: calc(100vh - 17em);
 }
+
+.main {
+    background-image: url('/img/nosotros/fondo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

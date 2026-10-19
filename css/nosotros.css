@@ -6,6 +6,12 @@
     justify-content: center;
 }
 
+.main {
+    background-image: url('/img/nosotros/fondo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .s2-titulo {
     width: 100%;
     height: 20%;
@@ -54,6 +60,7 @@
 
 .bloque1-box p {
     margin: 1em 0;    
+    font-size: 1.5em;
 }
 
 .s2-bloque2 {

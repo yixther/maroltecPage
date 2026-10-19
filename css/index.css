@@ -5,6 +5,12 @@
     flex-direction: row;
 }
 
+.main {
+    background-image: url('/img/nosotros/fondo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .s2-contenido {
     width: 40%;
     height: 100%;
